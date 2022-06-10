@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>Contact</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<a class="navbar-brand" href="index.html">INICIO</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+		  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+			<li class="nav-item active">
+			  <a class="nav-link" href="pagina2.html">GUANTES<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="pagina3.html">PRODUCTOS</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link disabled" href="pagina4.html" tabindex="-1" aria-disabled="true">PROMOCIONES</a>
+			</li>
+		  </ul>
+		  <form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">BUSCAR</button>
+		  </form>
+		</div>
+	  </nav>
+	  
+      <section class="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact">
+                        <div class="col-md-6">
+                           <div class="contact_icon">
+                           <div class="icon">
+                               <i class="fa fa-facebook" aria-hidden="true"></i>
+                           </div>
+                           <div class="c_text">
+                               
+                               
+                           </div>
+                           </div>
+                       </div>
+                       <div class="col-md-6">
+                           <div class="contact_icon">
+                           <div class="icon">
+                               <i class="fa fa-twitter" aria-hidden="true"></i>
+                           </div>
+                           <div class="c_text">
+                               
+                               
+                           </div>
+                           </div>
+                       </div>
+                       <div class="col-md-6">
+                           <div class="contact_icon">
+                           <div class="icon">
+                               <i class="fa fa-envelope" aria-hidden="true"></i>
+                           </div>
+                           <div class="c_text">
+                               
+                           </div>
+                           </div>
+                       </div>
+                      
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="get_in_touch">
+                       <h2>Contactenos</h2>
+                        <form action="#" method="post">
+                            <p>Tu Nombre (requerido)</p>
+                            <input type="text" name="">
+                            <p>Tu Correo (requerido)</p>
+                            <input type="email" name="">
+                            <p>Asunto</p>
+                            <input type="text" name="">
+                            <p>Numero de telefono</p>
+                            <input type="text" name="">
+                            <p>Tu mensaje</p>
+                            <textarea rows="10" cols="50"></textarea>
+                            <input type="submit" value="ENVIAR">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<style>
+
+body{
+    /* background-color: #f80; */
+    /* background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD_Co5urokjYBNnhn8TBKlHRXWo5TcQsclylxayxo05LPaqaZv6YAx-Mnn8RkaZmEbCiY&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #aaa;
+    
+}
+
+
+
+.contacto {
+  margin: 90px 0px 110px;
+  margin-left: 0px;
+}
+
+.contacto h2{
+    font-size: 38px;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
+}
+.get_in_touch {
+  padding-left: 70px;
+}
+.contacto form p {
+  color: #383838;
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 28px 0 0;
+}
+.contacto form input {
+  border: 1px solid #c0c0c0;
+  height: 40px;
+  padding: 0 20px;
+  width: 100%;
+  background: #f8f8f8;
+}
+.contacto form textarea {
+  background: #f8f8f8 none repeat scroll 0 0;
+  border: 1px solid #c0c0c0;
+  height: 230px;
+  padding: 0 20px;
+  width: 100%;
+}
+.contacto input[type="submit"] {
+  background: #f00 none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 31px;
+  text-transform: uppercase;
+  width: 105px;
+  cursor: pointer;
+}
+.contacto .contact_icon .icon {
+  float: left;
+}
+.contacto .contact_icon .icon i {
+  background: #fe931f none repeat scroll 0 0;
+  color: #fff;
+  font-size: 28px;
+  padding: 8px 0;
+  text-align: center;
+  width: 50px;
+}
+.contacto .contact_icon .c_text {
+  float: left;
+  margin-left: 13px;
+}
+.contacto .contact_icon .c_text p{
+    line-height: 20px
+}
+.contacto .contact_icon .c_text p {
+  line-height: 10px;
+  margin-top: 7px;
+  color: #333333;
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.contacto .contact_icon {
+  margin-left: -10px;
+  margin-top: 50px;
+}
+
+nav{
+    background-color: #0af;
+    height: 30px;
+    align-items: flex-start;
+    padding:15px;
+    color:#fff;
+}
+
+a{
+    text-decoration:none;
+}
+
+</style>
+
+
+
+</body>
+</html>
+
+
+
+</html>
